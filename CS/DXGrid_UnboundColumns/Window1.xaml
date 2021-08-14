@@ -4,10 +4,11 @@
         xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
         xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
         Title="Window1"
-        Height="300"
-        Width="552">
+        Height="300" Width="552">
+
     <Grid>
-        <dxg:GridControl x:Name="grid" CustomUnboundColumnData="grid_CustomUnboundColumnData">
+        <dxg:GridControl x:Name="grid"
+                         CustomUnboundColumnData="grid_CustomUnboundColumnData">
             <dxg:GridControl.Columns>
                 <dxg:GridColumn FieldName="ProductName" />
                 <dxg:GridColumn FieldName="UnitPrice">

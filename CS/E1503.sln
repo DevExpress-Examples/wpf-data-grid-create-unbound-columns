@@ -1,6 +1,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_UnboundColumns", "DXGrid_UnboundColumns\DXGrid_UnboundColumns.csproj", "{978D8FAD-A192-469D-B563-7A05839DC690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_UnboundColumns_MVVM", "DXGrid_UnboundColumns_MVVM\DXGrid_UnboundColumns_MVVM.csproj", "{7DF8FF4B-D2FB-4912-9EAF-8F5FD033E34A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +16,15 @@ Global
 		{978D8FAD-A192-469D-B563-7A05839DC690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{978D8FAD-A192-469D-B563-7A05839DC690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{978D8FAD-A192-469D-B563-7A05839DC690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF8FF4B-D2FB-4912-9EAF-8F5FD033E34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF8FF4B-D2FB-4912-9EAF-8F5FD033E34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF8FF4B-D2FB-4912-9EAF-8F5FD033E34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF8FF4B-D2FB-4912-9EAF-8F5FD033E34A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AC6D06-ED10-4067-ADEE-F1370332390A}
 	EndGlobalSection
 EndGlobal
