@@ -2,7 +2,7 @@
 using System;
 using System.Windows;
 
-namespace DXGrid_UnboundColumns {
+namespace DXGrid_UnboundColumns_CodeBehind {
     public partial class Window1 : Window {
         public Window1() {
             InitializeComponent();

@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_UnboundColumns", "DXGrid_UnboundColumns\DXGrid_UnboundColumns.csproj", "{978D8FAD-A192-469D-B563-7A05839DC690}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_UnboundColumns_CodeBehind", "DXGrid_UnboundColumns_CodeBehind\DXGrid_UnboundColumns_CodeBehind.csproj", "{978D8FAD-A192-469D-B563-7A05839DC690}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXGrid_UnboundColumns_MVVM", "DXGrid_UnboundColumns_MVVM\DXGrid_UnboundColumns_MVVM.csproj", "{7DF8FF4B-D2FB-4912-9EAF-8F5FD033E34A}"
 EndProject
