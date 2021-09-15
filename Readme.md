@@ -3,17 +3,36 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1503)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+
+# WPF Data Grid - How to Create Unbound Columns
+
+This example shows how to add an unbound column to the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl). This column should display the total price, calculated as follows: **UnitPrice * UnitsOnOrder**.
+
 <!-- default file list -->
-*Files to look at*:
 
-* **[Window1.xaml](./CS/DXGrid_UnboundColumns/Window1.xaml) (VB: [Window1.xaml](./VB/DXGrid_UnboundColumns/Window1.xaml))**
-* [Window1.xaml.cs](./CS/DXGrid_UnboundColumns/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/DXGrid_UnboundColumns/Window1.xaml.vb))
+## Files to Look At
+
+### Code Behind Technique
+
+- [MainWindow.xaml](./CS/DXGrid_UnboundColumns_CodeBehind/Window1.xaml) ([MainWindow.xaml](./VB/DXGrid_UnboundColumns_CodeBehind/Window1.xaml))
+- [MainWindow.xaml.cs](./CS/DXGrid_UnboundColumns_CodeBehind/Window1.xaml.cs#L12-L18) ([MainWindow.xaml.vb](./VB/DXGrid_UnboundColumns_CodeBehind/Window1.xaml.vb#L14-L20))
+
+### MVVM Technique
+
+- [MainWindow.xaml](./CS/DXGrid_UnboundColumns_MVVM/MainWindow.xaml) ([MainWindow.xaml](./VB/DXGrid_UnboundColumns_MVVM/MainWindow.xaml))
+- [MainViewModel.cs](./CS/DXGrid_UnboundColumns_MVVM/ViewModel.cs#L15-L21) ([MainViewModel.vb](./VB/DXGrid_UnboundColumns_MVVM/ViewModel.vb#L17-L23))
+
 <!-- default file list end -->
-# How to create unbound columns
 
+## Documentation
 
-<p>This example shows how to add an unbound column to the DXGrid control. This column should display the total price, calculated as follows: UnitPrice * UnitsOnOrder.</p>
+- [Unbound Columns](https://docs.devexpress.com/WPF/6124/controls-and-libraries/data-grid/grid-view-data-layout/columns-and-card-fields/unbound-columns)
+- [GridControl.CustomUnboundColumnData](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.CustomUnboundColumnData)
+- [TreeListView.CustomUnboundColumnData](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TreeListView.CustomUnboundColumnData)
+- [GridControl.CustomUnboundColumnDataCommand](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl.CustomUnboundColumnDataCommand)
+- [TreeListView.CustomUnboundColumnDataCommand](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TreeListView.CustomUnboundColumnDataCommand)
 
-<br/>
+## More Examples
 
-
+- [How to display an icon in an unbound column based on the value stored in a bound column](https://github.com/DevExpress-Examples/how-to-display-an-icon-in-an-unbound-column-based-on-the-value-stored-in-a-bound-column-e1266)
+- [How to Bind the WPF GridControl to Conditional Formatting Rules Specified in ViewModel](https://github.com/DevExpress-Examples/wpf-mvvm-how-to-bind-the-gridcontrol-to-conditional-formatting-rules-specified-in-viewmodel)
