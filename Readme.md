@@ -34,5 +34,5 @@ This example shows how to add an unbound column to the [GridControl](https://doc
 
 ## More Examples
 
-- [How to display an icon in an unbound column based on the value stored in a bound column](https://github.com/DevExpress-Examples/how-to-display-an-icon-in-an-unbound-column-based-on-the-value-stored-in-a-bound-column-e1266)
+- [How to Display an Icon in an Unbound Column Based on the Value in a Bound Column](https://github.com/DevExpress-Examples/how-to-display-an-icon-in-an-unbound-column-based-on-the-value-stored-in-a-bound-column-e1266)
 - [How to Bind the WPF GridControl to Conditional Formatting Rules Specified in ViewModel](https://github.com/DevExpress-Examples/wpf-mvvm-how-to-bind-the-gridcontrol-to-conditional-formatting-rules-specified-in-viewmodel)
