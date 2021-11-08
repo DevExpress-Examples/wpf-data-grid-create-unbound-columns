@@ -8,7 +8,7 @@
 
 This example shows how to add an unbound column to the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl). This column should display the total price, calculated as follows: **UnitPrice * UnitsOnOrder**.
 
-![](https://docs.devexpress.com/WPF/images/GridControl_CustomUnboundColumnDataCommand.png?v=21.2)
+![](https://docs.devexpress.com/WPF/images/GridControl_CustomUnboundColumnDataCommand.png?v=21.2) 
 
 <!-- default file list -->
 
