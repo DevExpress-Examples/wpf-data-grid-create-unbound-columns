@@ -17,12 +17,12 @@ This example shows how to add an unbound column to the [GridControl](https://doc
 ### Code Behind Technique
 
 - [MainWindow.xaml](./CS/DXGrid_UnboundColumns_CodeBehind/Window1.xaml) ([MainWindow.xaml](./VB/DXGrid_UnboundColumns_CodeBehind/Window1.xaml))
-- [MainWindow.xaml.cs](./CS/DXGrid_UnboundColumns_CodeBehind/Window1.xaml.cs#L12-L18) ([MainWindow.xaml.vb](./VB/DXGrid_UnboundColumns_CodeBehind/Window1.xaml.vb#L14-L20))
+- [MainWindow.xaml.cs](./CS/DXGrid_UnboundColumns_CodeBehind/Window1.xaml.cs#L12-L18) ([MainWindow.xaml.vb](./VB/DXGrid_UnboundColumns_CodeBehind/Window1.xaml.vb#L15-L21))
 
 ### MVVM Technique
 
 - [MainWindow.xaml](./CS/DXGrid_UnboundColumns_MVVM/MainWindow.xaml) ([MainWindow.xaml](./VB/DXGrid_UnboundColumns_MVVM/MainWindow.xaml))
-- [MainViewModel.cs](./CS/DXGrid_UnboundColumns_MVVM/ViewModel.cs#L15-L21) ([MainViewModel.vb](./VB/DXGrid_UnboundColumns_MVVM/ViewModel.vb#L17-L23))
+- [MainViewModel.cs](./CS/DXGrid_UnboundColumns_MVVM/ViewModel.cs#L15-L21) ([MainViewModel.vb](./VB/DXGrid_UnboundColumns_MVVM/ViewModel.vb#L18-L24))
 
 <!-- default file list end -->
 
