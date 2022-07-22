@@ -1,25 +1,24 @@
 Imports DevExpress.Mvvm
 Imports DevExpress.Mvvm.DataAnnotations
 Imports DevExpress.Mvvm.Xpf
-Imports System.Data
-Imports DXGrid_UnboundColumns_MVVM.dsProducts
+Imports System.Collections.ObjectModel
 
 Namespace DXGrid_UnboundColumns_MVVM
 
     Public Class ViewModel
         Inherits ViewModelBase
 
-        Public Property Items As ProductsDataTable
+        Public Property Items As ObservableCollection(Of Product)
 
         Public Sub New()
-            Items = New dsProductsTableAdapters.ProductsTableAdapter().GetData()
+            Items = ProductList.GetData()
         End Sub
 
         <Command>
         Public Sub UnboundColumnDataCommand(ByVal args As UnboundColumnRowArgs)
             If args.IsGetData Then
-                Dim item = CType(CType(args.Item, DataRowView).Row, ProductsRow)
-                args.Value = item.UnitPrice * item.UnitsOnOrder
+                Dim item = CType(args.Item, Product)
+                args.Value = item.UnitPrice * item.Quantity
             End If
         End Sub
     End Class

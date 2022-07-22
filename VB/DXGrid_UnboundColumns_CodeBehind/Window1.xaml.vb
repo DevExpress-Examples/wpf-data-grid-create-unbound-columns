@@ -8,15 +8,15 @@ Namespace DXGrid_UnboundColumns_CodeBehind
         Inherits Window
 
         Public Sub New()
-            InitializeComponent()
-            grid.ItemsSource = New dsProductsTableAdapters.ProductsTableAdapter().GetData()
+            Me.InitializeComponent()
+            Me.grid.ItemsSource = ProductList.GetData()
         End Sub
 
         Private Sub grid_CustomUnboundColumnData(ByVal sender As Object, ByVal e As GridColumnDataEventArgs)
             If e.IsGetData Then
-                Dim price As Integer = Convert.ToInt32(e.GetListSourceFieldValue("UnitPrice"))
-                Dim unitsOnOrder As Integer = Convert.ToInt32(e.GetListSourceFieldValue("UnitsOnOrder"))
-                e.Value = price * unitsOnOrder
+                Dim price As Integer = Convert.ToInt32(e.GetListSourceFieldValue(NameOf(Product.UnitPrice)))
+                Dim quantity As Integer = Convert.ToInt32(e.GetListSourceFieldValue(NameOf(Product.Quantity)))
+                e.Value = price * quantity
             End If
         End Sub
     End Class
