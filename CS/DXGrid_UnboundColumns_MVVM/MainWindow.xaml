@@ -4,33 +4,27 @@
         xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
         xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
         xmlns:local="clr-namespace:DXGrid_UnboundColumns_MVVM"
-        Title="MainWindow"
         Height="300" Width="552">
-
     <Window.DataContext>
         <local:ViewModel/>
     </Window.DataContext>
-
-    <Grid>
-        <dxg:GridControl ItemsSource="{Binding Items}"
-                         CustomUnboundColumnDataCommand="{Binding UnboundColumnDataCommand}">
-            <dxg:GridControl.Columns>
-                <dxg:GridColumn FieldName="ProductName" />
-                <dxg:GridColumn FieldName="UnitPrice">
-                    <dxg:GridColumn.EditSettings>
-                        <dxe:TextEditSettings DisplayFormat="c2" />
-                    </dxg:GridColumn.EditSettings>
-                </dxg:GridColumn>
-                <dxg:GridColumn FieldName="UnitsOnOrder" />
-                <dxg:GridColumn FieldName="Total" UnboundType="Boolean" ReadOnly="True">
-                    <dxg:GridColumn.EditSettings>
-                        <dxe:TextEditSettings DisplayFormat="c2" />
-                    </dxg:GridColumn.EditSettings>
-                </dxg:GridColumn>
-            </dxg:GridControl.Columns>
-            <dxg:GridControl.View>
-                <dxg:TableView AutoWidth="True"/>
-            </dxg:GridControl.View>
-        </dxg:GridControl>
-    </Grid>
+    <dxg:GridControl ItemsSource="{Binding Items}"
+                     CustomUnboundColumnDataCommand="{Binding UnboundColumnDataCommand}">
+        <dxg:GridColumn FieldName="CompanyName"/>
+        <dxg:GridColumn FieldName="City"/>
+        <dxg:GridColumn FieldName="UnitPrice">
+            <dxg:GridColumn.EditSettings>
+                <dxe:TextEditSettings DisplayFormat="c2"/>
+            </dxg:GridColumn.EditSettings>
+        </dxg:GridColumn>
+        <dxg:GridColumn FieldName="Quantity"/>
+        <dxg:GridColumn FieldName="Total" UnboundType="Decimal" ReadOnly="True">
+            <dxg:GridColumn.EditSettings>
+                <dxe:TextEditSettings DisplayFormat="c2"/>
+            </dxg:GridColumn.EditSettings>
+        </dxg:GridColumn>
+        <dxg:GridControl.View>
+            <dxg:TableView AutoWidth="True"/>
+        </dxg:GridControl.View>
+    </dxg:GridControl>
 </Window>
