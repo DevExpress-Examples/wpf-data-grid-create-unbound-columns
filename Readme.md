@@ -4,11 +4,11 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# WPF Data Grid - How to Create Unbound Columns
+# WPF Data Grid - Create Unbound Columns
 
-This example shows how to add an unbound column to the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl). This column should display the total price, calculated as follows: **UnitPrice * UnitsOnOrder**.
+This example shows how to add an unbound column to the [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl). This column should display the total price, calculated as follows: **UnitPrice * Quantity**.
 
-![](https://docs.devexpress.com/WPF/images/GridControl_CustomUnboundColumnDataCommand.png?v=21.2) 
+![image](https://user-images.githubusercontent.com/65009440/180465144-f19d5406-684e-47ed-b772-7d951f28ebb1.png)
 
 <!-- default file list -->
 
