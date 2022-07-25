@@ -15,7 +15,7 @@ Namespace DXGrid_UnboundColumns_MVVM
         End Sub
 
         <Command>
-        Public Sub UnboundColumnDataCommand(ByVal args As UnboundColumnRowArgs)
+        Public Sub UnboundColumnData(ByVal args As UnboundColumnRowArgs)
             If args.IsGetData Then
                 Dim item = CType(args.Item, Product)
                 args.Value = item.UnitPrice * item.Quantity
