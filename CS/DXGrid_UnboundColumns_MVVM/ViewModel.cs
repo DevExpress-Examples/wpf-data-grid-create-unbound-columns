@@ -11,7 +11,7 @@ namespace DXGrid_UnboundColumns_MVVM {
         }
 
         [Command]
-        public void UnboundColumnDataCommand(UnboundColumnRowArgs args) {
+        public void UnboundColumnData(UnboundColumnRowArgs args) {
             if(args.IsGetData) {
                 var item = (Product)args.Item;
                 args.Value = item.UnitPrice * item.Quantity;
