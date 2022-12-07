@@ -52,13 +52,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Printing.v21.2.Core" />
-    <Reference Include="DevExpress.Data.v21.2" />
-    <Reference Include="DevExpress.Mvvm.v21.2" />
-    <Reference Include="DevExpress.Xpf.Core.v21.2" />
-    <Reference Include="DevExpress.Xpf.Printing.v21.2" />
-    <Reference Include="DevExpress.Xpf.Grid.v21.2.Core" />
-    <Reference Include="DevExpress.Xpf.Grid.v21.2" />
+    <Reference Include="DevExpress.Printing.v22.2.Core" />
+    <Reference Include="DevExpress.Drawing.v22.2" />
+    <Reference Include="DevExpress.Data.v22.2" />
+    <Reference Include="DevExpress.Mvvm.v22.2" />
+    <Reference Include="DevExpress.Xpf.Core.v22.2" />
+    <Reference Include="DevExpress.Xpf.Printing.v22.2" />
+    <Reference Include="DevExpress.Xpf.Grid.v22.2.Core" />
+    <Reference Include="DevExpress.Xpf.Grid.v22.2" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
