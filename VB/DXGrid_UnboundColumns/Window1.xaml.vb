@@ -1,14 +1,15 @@
-﻿Imports System
+Imports System
 Imports System.Windows
 Imports DevExpress.Xpf.Grid
 
 Namespace DXGrid_UnboundColumns
-    Partial Public Class Window1
+
+    Public Partial Class Window1
         Inherits Window
 
         Public Sub New()
-            InitializeComponent()
-            grid.ItemsSource = (New dsProductsTableAdapters.ProductsTableAdapter()).GetData()
+            Me.InitializeComponent()
+            Me.grid.ItemsSource = New dsProductsTableAdapters.ProductsTableAdapter().GetData()
         End Sub
 
         Private Sub grid_CustomUnboundColumnData(ByVal sender As Object, ByVal e As GridColumnDataEventArgs)
@@ -19,6 +20,4 @@ Namespace DXGrid_UnboundColumns
             End If
         End Sub
     End Class
-
-
 End Namespace
