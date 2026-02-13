@@ -40,7 +40,7 @@ This example shows how to add an unbound column to the [GridControl](https://doc
 - [How to Display an Icon in an Unbound Column Based on the Value in a Bound Column](https://github.com/DevExpress-Examples/how-to-display-an-icon-in-an-unbound-column-based-on-the-value-stored-in-a-bound-column-e1266)
 - [How to Bind the WPF GridControl to Conditional Formatting Rules Specified in ViewModel](https://github.com/DevExpress-Examples/wpf-mvvm-how-to-bind-the-gridcontrol-to-conditional-formatting-rules-specified-in-viewmodel)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-create-unbound-columns&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-create-unbound-columns&~~~was_helpful=no)
 
